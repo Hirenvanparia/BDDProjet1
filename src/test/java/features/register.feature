@@ -1,0 +1,8 @@
+Feature: register
+  @register
+  Scenario: As a user , I should  able to register successfully
+  So that, I can use all use features
+
+    Given I am on registration page
+    When I enter required registration details
+    Then I should able to register successfully
